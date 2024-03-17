@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+/* Add this to your CSS file, e.g., NavigationBar.css */
+nav {
+    background-color: black;
+    padding: 10px 20px; /* Add padding to space out the links */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+  }
+
+  nav h3{
+    font-size: 25px;
+    padding: 10x;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Align the links to the right */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 10px; /* Add some spacing between the links */
+    font-size: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px; /* Add padding to the links */
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #2bb8ff; /* Highlighted background color */
+
+    border-radius: 4px;
+  }
+  
+  #flow{
+    color: #2bb8ff;
+  }

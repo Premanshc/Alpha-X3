@@ -1,0 +1,38 @@
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.logo {
+    font-weight: bold;
+    margin-right: 20px; /* Adjust spacing between logo and icons */
+}
+
+.footer-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px; /* Adjust spacing between icons */
+}
+
+/* Adjust icon size as needed */
+.footer-right a i {
+    font-size: 1.5rem;
+}
+
+/* Add hover effect for icons if needed */
+.footer-right a:hover {
+    opacity: 0.8;
+}

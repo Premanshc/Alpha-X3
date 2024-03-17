@@ -1,0 +1,95 @@
+.container{
+  height: 83vh;
+}
+.image-container {
+    width: 50px;
+    height: auto;
+    top: 40%;
+    left: 40%;
+    position: fixed;
+    animation: popAndMove 3s forwards;
+  }
+
+  #x3{
+    height: 60vh;
+  }
+  @keyframes popAndMove {
+    0% {
+      transform: translate(0,-50%) scale(0);
+    }
+    50%{
+      transform: translate(0,-50%) scale(1.2);
+    }
+    30%{
+      transform: translate(0,-50%) scale(0);
+    }
+    100% {
+      transform: translate(-1500%, -50%) scale(1);
+    }
+  }
+
+h1{
+    font-size: 4rem;
+    color: white;
+}
+p{
+    font-size: 1.2rem;
+    color: #a6a6a6;
+}
+
+#four{
+    color: yellow;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#iot{
+    color: #2bb8ff;
+}
+#reflow{
+    color: #2bb8ff;
+}
+
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    opacity: 0; /* Start with transparency */
+  animation: fadeIn 3s ease-out forwards; /* Apply the animation */
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start with transparency */
+  }
+  90%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1; /* Fade to fully visible */
+  }
+}
+
+.sky-blue-button {
+  background-color: #87CEEB; /* Sky blue background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for text */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Box shadow for depth */
+  margin-top: 25px;
+  animation: fadeIn 5s ease-out forwards;
+}
+
+/* Hover effect */
+.sky-blue-button:hover {
+  background-color: #5F9EA0; /* Darker shade of sky blue on hover */
+}
